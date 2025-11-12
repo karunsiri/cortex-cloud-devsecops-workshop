@@ -19,5 +19,3 @@ resource "random_id" "rand_suffix" {
 output "bucket_name" {
   value = google_storage_bucket.example.name
 }
-
-# Add random comment
